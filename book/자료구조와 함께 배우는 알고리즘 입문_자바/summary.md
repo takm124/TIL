@@ -1,3 +1,7 @@
+[TOC]
+
+
+
 # 3.검색
 
 > 03-1 검색 알고리즘
@@ -221,4 +225,30 @@ public class IntQueue {
     }
 }
 ```
+
+
+
+# 5. 재귀 알고리즘
+
+> 05-1 재귀의 기본
+
+- 재귀 : 어떤 사건이 자기 자신을 포함하고 다시 자기 자신을 사용하여 정의될 때 재귀적이라고 함
+
+
+
+```java
+// 팩토리얼
+
+class Factorial {
+    static int factorial (int n) {
+        if (n > 0) {
+            return n * factorial(n-1);
+        } else {
+            return 1;
+        }
+    }
+}
+```
+
+
 
